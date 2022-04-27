@@ -1,0 +1,197 @@
+*{
+  margin: 0;
+  padding: 0;
+  max-width: 1350px;
+}
+body{
+  background: #091c0f;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0 100px;
+}
+
+/* Navigations */
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding: 20px 0;
+}
+
+.navbar .logo{
+  color: #ffff;
+  font-weight: bold;
+  font-size: x-large;
+}
+.navbar .lists{
+  display: flex;
+}
+
+.navbar .lists .nav-li{
+  margin-left: 20px;
+}
+
+.navbar ul li{
+  list-style-type: none;
+}
+
+.navbar a{
+  text-decoration: none;
+  color: #ffff;
+  font-weight: bolder;
+  font-size: large;
+}
+
+.navbar a:hover{
+  color: #00bd3c;
+}
+
+/* Navigations */
+
+/* Header */
+
+@media (max-width: 740px) {
+  body{
+    margin: 0;
+    padding: 0 20px;
+  }
+  .header{
+    flex-direction: column-reverse;
+  }
+
+  .header .header-img{
+    margin-bottom: 20px;
+  }
+
+  .about .about-us{
+    text-align: center !important;
+    flex-direction: column !important;
+   }
+
+   .about .about-info{
+     line-height: 1 !important;
+     text-align: justify !important;
+     width: auto !important;
+     margin-bottom: 20px;
+     font-size: 18px !important;
+   }
+   .about .about-heading{
+     margin: 0 auto;
+   }
+   .about .about-chef{
+     width: 400px !important;
+   }
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffff;
+  font-size: x-large;
+  margin-bottom: 50px;
+}
+
+.header .greeting{
+  margin-bottom: 20px;
+  font-weight: lighter;
+  font-size: larger;
+}
+
+.header .colored{
+  color: #f58634;
+}
+
+.header .colored-white{
+  color: #ffff;
+}
+
+.header .home-texts{
+  margin-bottom: 20px;
+}
+
+.header .home-p{
+  margin-bottom: 50px;
+  color: #959988;
+  font-size: large;
+}
+
+.header .header-texts{
+  flex: 1;
+}
+
+.header .second-line{
+  font-weight: lighter;
+}
+
+.header .header-img{
+  flex: 1;
+  text-align: center;
+}
+
+.header img{
+  max-width: 400px;
+  width: 400px;
+
+}
+
+.header a{
+  text-decoration: none;
+  color: #ffff;
+  border: 2px solid #f58634;
+  padding: 10px;
+}
+
+.header a:hover{
+  color: #f58634;
+  border: 2px solid #ffff;
+  background: #ffff;
+}
+
+/* Header */
+
+/* About us */
+
+.about{
+  margin: 0;
+  padding: 0;
+}
+
+.about .about-us{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+
+}
+
+.about .about-heading{
+  margin-bottom: 30px;
+  font-weight: bolder;
+  font-size: xx-large;
+  color: #ffff;
+  border-bottom: 2px solid #f58634;
+  width: 160px;
+
+}
+
+.about .colored{
+  color: #f58634;
+}
+.about .about-info{
+  text-align: right;
+  color: #959988;
+  font-size: 23px;
+  line-height: 1.5;
+  font-weight: bold;
+  width: 650px;
+}
+
+.about .first-p{
+  margin-bottom: 20px;
+}
+
+.about .about-chef{
+  width: 500px;
+}
+
+/* About us */
